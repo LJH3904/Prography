@@ -19,6 +19,7 @@
 #### 개발도구
 - Figma, Github
 -- Figma: https://www.figma.com/file/1JQDR8oX3rT1sO9Zh0EXYS/9%E1%84%80%E1%85%B5-%E1%84%86%E1%85%A9%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF-%E1%84%80%E1%85%AA%E1%84%8C%E1%85%A6?type=design&node-id=12-2005&mode=design&t=uPbi00yJyIy6koZ8-0
+- * 피그마(Figma) 디자인 자료에 대한 저작권은 프로그라피(Prography)에 속해 있음을 알려드립니다. 이러한 자료들은 프로그라피의 명시적인 동의 없이는 복제, 배포, 전송, 전시, 수행, 출판, 라이센스 부여, 파생 작품 생성 또는 어떠한 형태로든 사용할 수 없습니다. 모든 권리는 프로그라피에 예약되어 있으며, 저작권 법의 보호를 받습니다. 귀하의 협조에 감사드립니다. * 
 #### 기술스택
 - SwiftUI
 - Unsplash API
