@@ -9,14 +9,18 @@ import SwiftUI
 
 struct SkeletonView: View {
     private let size: CGSize
-    
+    @State private var isBlackBackground = true
+
+    var backgroundColor: Color { isBlackBackground ? .black : .gray
+    }
+        
     init(size: CGSize) {
         self.size = size
     }
     
     var body: some View {
         RoundedRectangle(cornerRadius: 8)
-            .fill(Color.gray)
+            .fill(backgroundColor)
             .opacity(0.5)
             .frame(width: size.width, height: size.height)
             .overlay(
@@ -34,6 +38,7 @@ struct SkeletonView: View {
             .redacted(reason: .placeholder)
             .onAppear {
                 withAnimation(Animation.easeInOut(duration: 1.0).repeatForever(autoreverses: true)) {
+                    isBlackBackground.toggle()
                 }
             }
     }

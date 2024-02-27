@@ -53,7 +53,7 @@ struct HomeView: View {
                             ForEach(unsplahStore.photos.indices, id: \.self) { index in
                                 if index % 2 == 0 {
                                     LatestPostsViewCell(bookmarkStore: bookmarkStore, unsplash: unsplahStore.photos[index])
-                                        .setSkeletonView(opacity: 0.5, shouldShow: isLoading)
+                                        
                                 }
                             }
                         }
@@ -61,7 +61,7 @@ struct HomeView: View {
                             ForEach(unsplahStore.photos.indices, id: \.self) { index in
                                 if index % 2 != 0 {
                                     LatestPostsViewCell(bookmarkStore: bookmarkStore, unsplash: unsplahStore.photos[index])
-                                        .setSkeletonView(opacity: 0.5, shouldShow: isLoading)
+                                        
                                 }
                             }
                         }
